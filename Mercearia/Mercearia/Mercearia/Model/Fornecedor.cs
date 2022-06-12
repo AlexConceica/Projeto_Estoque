@@ -12,5 +12,6 @@ namespace Mercearia.Model
         public string Cnpj { get; set; }
         public string Endereco { get; set; }
         public DateTime DataCadastro { get; set; }
+        public int NumeroRegistro { get; set; } 
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Mercearia.Model;
+using Mercearia.Controller;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace Mercearia.View
 {
     internal class MenuCompra
     {
+        ControllerFornecedor controlFonecedor = new ControllerFornecedor();
         public void menuCompra()
         {
             bool loop = true;
@@ -53,22 +55,29 @@ namespace Mercearia.View
                     case "1":
                         Console.Clear();
                         Console.WriteLine("Cadastro Fornecedor");
+                        controlFonecedor.Cadastrar();
                         break;
                     case "2":
                         Console.Clear();
                         Console.WriteLine("Editar Fornecedor");
+                        controlFonecedor.Editar();
                         break;
                     case "3":
                         Console.Clear();
                         Console.WriteLine("Excluir Fornecedor");
+                        controlFonecedor.Excluir();
                         break;
                     case "4":
                         Console.Clear();
                         Console.WriteLine("Consultar Todos Fornecedor");
+                        controlFonecedor.ListarTodosFornecedores();
+                        Console.ReadKey();
                         break;
                     case "5":
                         Console.Clear();
                         Console.WriteLine("Consultar por Id Fornecedor");
+                        controlFonecedor.ListarFornecedor();
+                        Console.ReadKey();
                         break;
                     case "6":
                         Console.Clear();
