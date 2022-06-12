@@ -1,10 +1,5 @@
-﻿using Mercearia.Model;
-using Mercearia.Controller;
+﻿using Mercearia.Controller;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mercearia.View
 {
@@ -36,7 +31,7 @@ namespace Mercearia.View
         public void menuFornecedor()
         {
             bool loop = true;
-            while(loop)
+            while (loop)
             {
                 Console.Clear();
                 Console.WriteLine("____Menu Fornecedor___");
@@ -89,7 +84,7 @@ namespace Mercearia.View
                         Console.WriteLine("Opção Invalida");
                         break;
                 }
-            }          
+            }
         }
         public void menuComprarProdutos()
         {
@@ -103,7 +98,7 @@ namespace Mercearia.View
                 Console.Write("Sua opção: ");
                 string option = Console.ReadLine();
 
-                switch(option)
+                switch (option)
                 {
                     case "1":
                         break;

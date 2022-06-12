@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.SqlClient;
 
 namespace Mercearia.Model.DAO
 {
@@ -13,7 +8,7 @@ namespace Mercearia.Model.DAO
 
         public Conexao()
         {
-            con.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MERCEARIA;Integrated Security=True";
+            con.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MERCEARIA_;Integrated Security=True";
         }
         public SqlConnection Conectar()
         {
@@ -25,7 +20,7 @@ namespace Mercearia.Model.DAO
         }
         public void Desconectar()
         {
-            if(con.State == System.Data.ConnectionState.Open)
+            if (con.State == System.Data.ConnectionState.Open)
             {
                 con.Close();
             }

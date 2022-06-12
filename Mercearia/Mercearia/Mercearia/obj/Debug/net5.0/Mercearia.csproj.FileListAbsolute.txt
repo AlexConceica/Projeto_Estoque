@@ -37,3 +37,26 @@ C:\Users\Felip\OneDrive\Área de Trabalho\Nova pasta\Projeto_Estoque\Mercearia\M
 C:\Users\Felip\OneDrive\Área de Trabalho\Nova pasta\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Felip\OneDrive\Área de Trabalho\Nova pasta\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Felip\OneDrive\Área de Trabalho\Nova pasta\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.csproj.CopyComplete
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\Mercearia.exe
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\Mercearia.deps.json
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\Mercearia.runtimeconfig.json
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\Mercearia.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\Mercearia.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\ref\Mercearia.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\Mercearia.pdb
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.csproj.CopyComplete
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\ref\Mercearia.dll
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.pdb
+C:\Users\Admin\Desktop\Merceria Alex\Projeto_Estoque\Mercearia\Mercearia\Mercearia\obj\Debug\net5.0\Mercearia.genruntimeconfig.cache

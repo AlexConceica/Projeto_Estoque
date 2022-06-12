@@ -1,17 +1,15 @@
-﻿using System;
-using Mercearia.Model;
+﻿using Mercearia.Model;
 using Mercearia.Model.DAO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mercearia.Controller
 {
     internal class ControllerFornecedor : Fornecedor
     {
         FornecedorDAO _fornecedorDao = new();
-       
+
         public void Cadastrar()
         {
             Fornecedor fornecedor = new Fornecedor();
@@ -55,7 +53,7 @@ namespace Mercearia.Controller
             Console.Write("Informe o Numero de Registro do fornecedor que deseja editar: ");
             int numeroRegistro = int.Parse(Console.ReadLine());
 
-            Fornecedor fornecedor = fornecedores.FirstOrDefault(a => a.NumeroRegistro == numeroRegistro); 
+            Fornecedor fornecedor = fornecedores.FirstOrDefault(a => a.NumeroRegistro == numeroRegistro);
 
             if (fornecedor != null)
             {
@@ -65,7 +63,7 @@ namespace Mercearia.Controller
                 Console.Write("Digite o Endereco: ");
                 fornecedor.Endereco = Console.ReadLine();
 
-                _fornecedorDao.Editar(fornecedor); 
+                _fornecedorDao.Editar(fornecedor);
             }
         }
 
@@ -85,7 +83,7 @@ namespace Mercearia.Controller
                 var result = _fornecedorDao.Excluir(fornecedor.NumeroRegistro);
                 if (result)
                 {
-                    Console.Clear(); 
+                    Console.Clear();
                     Console.WriteLine("Fornecedor apagado com sucesso");
                     Console.ReadKey();
                 }
@@ -126,14 +124,14 @@ namespace Mercearia.Controller
 
             Fornecedor fornecedor = fornecedores.FirstOrDefault(a => a.NumeroRegistro == numeroRegistro);
 
-            if (fornecedor !=null)
+            if (fornecedor != null)
             {
                 Console.WriteLine("Razão Social: " + fornecedor.RazaoSocial);
                 Console.WriteLine("CNPJ: " + fornecedor.Cnpj);
                 Console.WriteLine("Endereço: " + fornecedor.Endereco);
                 Console.WriteLine("Data Cadastro: " + fornecedor.DataCadastro);
                 Console.WriteLine("Numero Registro: " + fornecedor.NumeroRegistro);
-                Console.WriteLine("----------------"); 
+                Console.WriteLine("----------------");
             }
         }
     }
