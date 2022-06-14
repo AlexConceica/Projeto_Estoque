@@ -34,16 +34,6 @@ namespace Mercearia.Controller
 
         }
 
-        public List<Fornecedor> Consultar(Fornecedor obj)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Fornecedor ConsultarId(Fornecedor obj)
-        {
-            throw new NotImplementedException();
-        }
-
         public void Editar()
         {
             var fornecedores = _fornecedorDao.ConsultarFornecedores();
@@ -105,6 +95,7 @@ namespace Mercearia.Controller
 
             foreach (var fornecedor in listarFornecedores)
             {
+                Console.WriteLine("Id: " + fornecedor.Id);
                 Console.WriteLine("Razão Social: " + fornecedor.RazaoSocial);
                 Console.WriteLine("CNPJ: " + fornecedor.Cnpj);
                 Console.WriteLine("Endereço: " + fornecedor.Endereco);
@@ -122,7 +113,7 @@ namespace Mercearia.Controller
             Console.Write("Informe o Numero de Registro do fornecedor que deseja listar: ");
             int numeroRegistro = int.Parse(Console.ReadLine());
 
-            Fornecedor fornecedor = fornecedores.FirstOrDefault(a => a.NumeroRegistro == numeroRegistro);
+            Fornecedor fornecedor = fornecedores.FirstOrDefault(a => a.Id == Id);
 
             if (fornecedor != null)
             {

@@ -16,7 +16,7 @@ namespace Mercearia.Controller
             Console.Write("Digite seu nome: ");
             cliente.Nome = Console.ReadLine();
 
-            Console.Write("Digite o Cnpj (XX. XXX. XXX/0001-XX): ");
+            Console.Write("Digite o Cpf (XXX.XXX.XXX-XX): ");
             cliente.Cpf = Console.ReadLine();
 
             Console.Write("Digite o Endereco: ");
@@ -42,7 +42,7 @@ namespace Mercearia.Controller
 
             if (cliente != null)
             {
-                Console.Write("Digite a Razão Social: ");
+                Console.Write("Digite o seu Nome: ");
                 cliente.Nome = Console.ReadLine();
 
                 Console.Write("Digite o Endereco: ");

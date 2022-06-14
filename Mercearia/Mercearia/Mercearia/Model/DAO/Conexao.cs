@@ -8,7 +8,7 @@ namespace Mercearia.Model.DAO
 
         public Conexao()
         {
-            con.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MERCEARIA_;Integrated Security=True";
+            con.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Mercearia;Integrated Security=True";
         }
         public SqlConnection Conectar()
         {

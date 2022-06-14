@@ -53,6 +53,7 @@ namespace Mercearia.Model.DAO
                 while (reader.Read())
                 {
                     Fornecedor fornecedor = new();
+                    fornecedor.Id = reader.GetInt32(0);
                     fornecedor.RazaoSocial = reader.GetString(1);
                     fornecedor.Cnpj = reader.GetString(2);
                     fornecedor.Endereco = reader.GetString(3);
@@ -113,12 +114,12 @@ namespace Mercearia.Model.DAO
                 conexao.Desconectar(); 
             }
         }
-        public List<Fornecedor> ListarFornecedor(int NumeroRegistro)
+        public Fornecedor ListarFornecedor(int Id)
         {
+            Fornecedor fornecedorU = new Fornecedor();
             sqlCommand = new SqlCommand();
-            List<Fornecedor> fornecedor = new List<Fornecedor>();
-            sqlCommand.CommandText = "SELECT * FROM FORNECEDOR WHERE Numero_Registro = @Numero_registro;";
-            sqlCommand.Parameters.AddWithValue("@Numero_Registro", NumeroRegistro);
+            sqlCommand.CommandText = "SELECT * FROM FORNECEDOR WHERE Id = @Id;";
+            sqlCommand.Parameters.AddWithValue("@Id", Id);
 
             try
             {
@@ -127,13 +128,11 @@ namespace Mercearia.Model.DAO
                 SqlDataReader reader = sqlCommand.ExecuteReader();
                 while (reader.Read())
                 {
-                    Fornecedor fornecedorU = new Fornecedor();
                     fornecedorU.RazaoSocial = reader.GetString(1);
                     fornecedorU.Cnpj = reader.GetString(2);
                     fornecedorU.Endereco = reader.GetString(3);
                     fornecedorU.DataCadastro = reader.GetDateTime(4);
                     fornecedorU.NumeroRegistro = reader.GetInt32(5);
-                    fornecedor.Add(fornecedorU);
                 }
             }
             catch (SqlException e)
@@ -144,7 +143,7 @@ namespace Mercearia.Model.DAO
             {
                 conexao.Desconectar();
             }
-            return fornecedor;
+            return fornecedorU;
         }
 
     }

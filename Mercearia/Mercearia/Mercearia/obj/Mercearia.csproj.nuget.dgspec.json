@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Merceria Alex\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\Mercearia.csproj": {}
+    "C:\\Users\\luiz.lima1\\Desktop\\Projetos Backend\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\Mercearia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Merceria Alex\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\Mercearia.csproj": {
+    "C:\\Users\\luiz.lima1\\Desktop\\Projetos Backend\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\Mercearia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Merceria Alex\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\Mercearia.csproj",
+        "projectUniqueName": "C:\\Users\\luiz.lima1\\Desktop\\Projetos Backend\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\Mercearia.csproj",
         "projectName": "Mercearia",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Merceria Alex\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\Mercearia.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Merceria Alex\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\obj\\",
+        "projectPath": "C:\\Users\\luiz.lima1\\Desktop\\Projetos Backend\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\Mercearia.csproj",
+        "packagesPath": "C:\\Users\\luiz.lima1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luiz.lima1\\Desktop\\Projetos Backend\\Projeto_Estoque\\Mercearia\\Mercearia\\Mercearia\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\luiz.lima1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

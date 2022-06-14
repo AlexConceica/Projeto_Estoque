@@ -8,6 +8,7 @@ namespace Mercearia.Model
 {
     internal class Fornecedor
     {
+        public int Id { get; set; }
         public string RazaoSocial { get; set; }
         public string Cnpj { get; set; }
         public string Endereco { get; set; }

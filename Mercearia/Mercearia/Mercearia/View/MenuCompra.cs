@@ -6,6 +6,7 @@ namespace Mercearia.View
     internal class MenuCompra
     {
         ControllerFornecedor controlFonecedor = new ControllerFornecedor();
+        ControllerCompra controlCompra = new ControllerCompra();
         public void menuCompra()
         {
             bool loop = true;
@@ -24,6 +25,20 @@ namespace Mercearia.View
                     case "1":
                         Console.WriteLine("Dados Fornecedor");
                         menuFornecedor();
+                        break;
+                    case "2":
+                        Console.Clear();
+                        controlCompra.ComprarNovoProduto();
+                        break;
+                    case "3":
+                        Console.Clear();
+                        Console.WriteLine("Voltando ao menu");
+                        Console.ReadKey();
+                        loop = false;
+                        break;
+                    default:
+                        Console.WriteLine("Opção Invalida");
+                        Console.ReadKey();
                         break;
                 }
             }
@@ -82,25 +97,6 @@ namespace Mercearia.View
                         break;
                     default:
                         Console.WriteLine("Opção Invalida");
-                        break;
-                }
-            }
-        }
-        public void menuComprarProdutos()
-        {
-            bool loop = true;
-            while (loop)
-            {
-                Console.WriteLine("_____Compra Produtos_____");
-                Console.WriteLine("");
-                Console.WriteLine("1 - Se deseja comprar novos produtos\n" +
-                    "2 - Para voltar para o menu");
-                Console.Write("Sua opção: ");
-                string option = Console.ReadLine();
-
-                switch (option)
-                {
-                    case "1":
                         break;
                 }
             }
